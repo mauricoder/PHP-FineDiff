@@ -75,6 +75,9 @@
 *   TODO: How often this case occurs? Is it worth it? Can only
 *   be done as a postprocessing method (->optimize()?)
 */
+
+namespace MauriCoder\FineDiff;
+
 abstract class FineDiffOp {
 	abstract public function getFromLen();
 	abstract public function getToLen();
