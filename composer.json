@@ -1,5 +1,5 @@
 {
-    "name": "mauricoder/FineDiff",
+    "name": "mauricoder/PHP-FineDiff",
     "description": "A PHP implementation of a Fine granularity Diff engine: Diff can be computed up to character-level http://www.raymondhill.net/finediff/ — .",
     "keywords": [
         "difference",
@@ -13,7 +13,6 @@
             "homepage": "http://raymondhill.net/blog/?p=441"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "MauriCoder\\FineDiff\\": "lib"
